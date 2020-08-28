@@ -25,7 +25,6 @@
   "dependencies": {},
   "scripts": {
     "test": "jest",
-    "test:staged": "jest",
-    "jest": "node_modules/jest/bin/jest.js"
+    "test:staged": "jest"
   }
 }
