@@ -8,5 +8,5 @@ export const badRequest = (error: Error): HttpResponse => ({
 
 export const serverError = (): HttpResponse => ({
   statusCode: 500,
-  body: ServerError,
+  body: new ServerError(),
 });
